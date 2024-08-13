@@ -8,7 +8,7 @@
                     <img src="/img/logo.png" alt="" style="width: 300px">
                 </div>
                 <div class="col text-start">
-                    <h3 class="mb-4">Visi <span style="color: #81A263">Desa Limapoccoe</span></h3>
+                    <h3 class="mb-4 mt-5">Visi <span style="color: #81A263">Desa Limapoccoe</span></h3>
                     <p><b>
                             “ Hadir Lebih Dekat Melayani Masyarakat Demi Terwujudnya Desa Limapoccoe yang Lebih Maju,
                             Mandiri,
@@ -46,37 +46,42 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm mt-5">
+            <div class="col-sm mt-5 text-center">
                 <div class="row my-5">
-            <div class="col-6 col-md-4 col-lg-3 gallery-item">
-                <img src="/img/galeri1.jpg" class="gallery-img" alt="Placeholder Image 1">
-                <span><b></b></span>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 gallery-item">
-                <img src="/img/galeri2.jpg" class="gallery-img" alt="Placeholder Image 2">
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 gallery-item">
-                <img src="/img/galeri3.jpg" class="gallery-img" alt="Placeholder Image 3">
-                <span style="color: #81A263"><b>Pengecekan keasaman tanah bersama Kelompok Tani Raodhatul Jannah</b></span>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 gallery-item">
-                <img src="/img/galeri4.jpg" class="gallery-img" alt="Placeholder Image 4">
-                <span style="color: #81A263"><b>Warga lokal yang mengunjungi Telaga Bidadari</b></span>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 gallery-item">
-                <img src="/img/galeri5.jpg" class="gallery-img" alt="Placeholder Image 5">
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 gallery-item">
-                <img src="/img/galeri6.jpg" class="gallery-img" alt="Placeholder Image 6">
-                <span style="color: #81A263"><b>Sosialisasi gmaps di SMAN 12 Maros</b></span>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 gallery-item">
-                <img src="/img/galeri7.jpg" class="gallery-img" alt="Placeholder Image 7">
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 gallery-item">
-                <img src="/img/galeri8.jpg" class="gallery-img" alt="Placeholder Image 8">
-            </div>
-        </div>
+                    <div class="col-6 col-md-4 col-lg-3 gallery-item" style="width: 285px; height: 180px">
+                        <img src="/img/vismis1.jpg" class="gallery-img" alt="Placeholder Image 1"
+                            style="width: 100%; height: 100%; object-fit: cover">
+                        <span><b></b></span>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 gallery-item" style="width: 285px; height: 180px">
+                        <img src="/img/vismis2.jpg" class="gallery-img" alt="Placeholder Image 2"
+                            style="width: 100%; height: 100%; object-fit: cover">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 gallery-item" style="width: 285px; height: 180px">
+                        <img src="/img/vismis3.jpg" class="gallery-img" alt="Placeholder Image 3"
+                            style="width: 100%; height: 100%; object-fit: cover">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 gallery-item" style="width: 285px; height: 180px">
+                        <img src="/img/vismis4.jpg" class="gallery-img" alt="Placeholder Image 4"
+                            style="width: 100%; height: 100%; object-fit: cover">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 gallery-item" style="width: 285px; height: 180px">
+                        <img src="/img/vismis5.jpg" class="gallery-img" alt="Placeholder Image 5"
+                            style="width: 100%; height: 100%; object-fit: cover">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 gallery-item" style="width: 285px; height: 180px">
+                        <img src="/img/vismis6.jpg" class="gallery-img" alt="Placeholder Image 6"
+                            style="width: 100%; height: 100%; object-fit: cover">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 gallery-item" style="width: 285px; height: 180px">
+                        <img src="/img/vismis7.jpg" class="gallery-img" alt="Placeholder Image 7"
+                            style="width: 100%; height: 100%; object-fit: cover">
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 gallery-item" style="width: 285px; height: 180px">
+                        <img src="/img/vismis8.jpg" class="gallery-img" alt="Placeholder Image 8"
+                            style="width: 100%; height: 100%; object-fit: cover">
+                    </div>
+                </div>
 
             </div>
         </div>
