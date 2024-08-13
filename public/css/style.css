@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+/* style home */
+.map-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 600px;
+    border: 3px solid #81A263;
+}
+
+.card-berita {
+    transition: transform 0.5s ease;
+}
+
+.card-berita:hover {
+    transform: scale(1.05);
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.gallery-item {
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #365E32;
+    /* Light gray background */
+    padding: 20px 0;
+    color: #333;
+    /* Darker text color */
+}
+
+.footer a {
+    color: #333;
+    /* Darker text color for links */
+}
+
+.footer .contact-info {
+    margin-bottom: 15px;
+}
+
+img {
+    object-fit: fill;
+}
+
+/* style admin tambah berita baru */
+.create-new-post {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+trix-toolbar [data-trix-button-group="file-tools"] {
+    display: none;
+}
+
+.show-berita {
+    background-color: #fff2be;
+    color: #365E32;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+
+@media (max-width: 737px) {
+    .show-berita {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
