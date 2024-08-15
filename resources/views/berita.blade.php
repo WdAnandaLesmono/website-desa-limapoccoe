@@ -13,7 +13,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ $berita->title }}</h5>
                         <p class="card-text">{{ $berita->excerpt }}</p>
-                        <a href="/admin/{{ $berita->id }}" class="btn btn-success" style="width: 150px; font-size: 11px;">Baca
+                        <a href="/berita/{{ $berita->id }}" class="btn btn-success" style="width: 150px; font-size: 11px;">Baca
                             Berita</a>
                     </div>
                 </div>

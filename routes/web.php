@@ -17,12 +17,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/login', [LoginController::class, 'index']);
+Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::post('/login', [LoginController::class, 'authenticate']);
-Route::resource('/admin', AdminController::class);
+Route::resource('/admin', AdminController::class)->middleware('checkAdmin');
 
 Route::get('/', [BerandaController::class, 'index']);
 Route::get('/berita', [BeritaController::class, 'index']);
+Route::get('/berita/{id}', [BeritaController::class, 'showberita']);
 
 Route::get('/tentang-kami/visi-misi', function () {
     return view('visimisi');
@@ -48,6 +49,6 @@ Route::get('/pemerintahan/struktur-organisasi', function () {
     return view('strukturorganisasi');
 });
 
-Route::get('/pemerintahan/aparat-desa', function () {
+Route::get('/pemerintahan/pemerintah-desa', function () {
     return view('aparatdesa');
 });

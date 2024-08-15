@@ -13,4 +13,13 @@ class BeritaController extends Controller
             'beritas' => Berita::all()
         ]);
     }
+
+    public function showberita($id) 
+    {
+        $berita = Berita::findOrFail($id);
+
+        return view('detailberita', [
+            'berita' => $berita
+        ]);
+    }
 }

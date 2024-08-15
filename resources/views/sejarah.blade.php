@@ -2,7 +2,7 @@
 
 @section('body')
     <div class="container-fluid show-berita py-3" style="background-color: #E7D37F; color: #365E32">
-        <h3 class="py-5 text-center" style="margin: 0">Sejarah</h3>
+        <h3 class="py-5 text-center" style="margin: 0; color: black">Sejarah</h3>
         <p class="pb-3" style="margin: 0">
             Desa Limapoccoe terbentuk jauh sebelum Kemerdekaan Indonesia ketika wilayah ini masih menggunakan sistem
             kerajaan dalam pemerintahannya. Dulunya, Limapoccoe merupakan bagian dari Kerajaan Lebbotengae yang dipimpin
@@ -32,7 +32,7 @@
             Pada masa itu, desa yang dipimpinnya ini disebut sebagai Desa Wt. Bengo karena pusat pemerintahannya yang berada
             di sana.
         </p>
-        <h5 class="pb-3" style="margin: 0">Pembentukan Nama Desa Limapoccoe</h5>
+        <h5 class="pb-3" style="margin: 0;">Pembentukan Nama Desa Limapoccoe</h5>
         <p class="pb-3" style="margin: 0">
             Tidak lama setelah ditetapkannya Kepala Desa Wt. Bengo, musyawarah kembali dilaksanakan dengan mengumpulkan
             seluruh tokoh dan pemangku adat. Tujuannya yaitu untuk menetapkan nama desa yang masih dikenal dengan Desa Wt.
@@ -53,7 +53,7 @@
             yakni perpaduan antara bahasa Bugis dan Makassar. Sebab, Kerajaan Lebbotengae merupakan tempat persinggahan
             Kerajaan Bone yang berbahasa Bugis dan Gowa yang berbahasa Makassar sehingga terjadi akulturasi bahasa.
         </p>
-        <h5 class="pb-3" style="margin: 0">
+        <h5 class="pb-3" style="margin: 0;">
             Pemekaran Dusun di Desa Limapoccoe</h5>
         <p class="pb-3" style="margin: 0">
             Seperti yang telah disebutkan sebelumnya, mulanya jumlah dusun di Limapoccoe berjumlah lima dusun. Akan tetapi,
@@ -71,7 +71,7 @@
         <p class="pb-3" style="margin: 0">
             8. Dusun Barua
         </p>
-        <h5 class="pb-3" style="margin: 0">
+        <h5 class="pb-3" style="margin: 0;">
             Sejarah Pemerintahan Desa Limapoccoe</h5>
         <p class="pb-3" style="margin: 0">
             Pemerintahan Desa Limapoccoe telah dimulai sejak tahun 1960 hingga saat ini. Sejak saat itu, pergantian kepala

@@ -16,13 +16,17 @@ class LoginController extends Controller
 
     public function authenticate(Request $request)
     {
-        $adminEmail = 'nandalesmono@gmail.com';
-        $adminPassword = 'nandalimapoccoe';
+        $adminEmail = 'desalimapoccoe07@gmail.com';
+        $adminPassword = 'limapoccoe07desa';
 
         $request->validate([
             'email' => 'required|email:dns',
             'password' => 'required'
         ]);
+
+        if ($request->session()->has('isAdmin')) {
+            $request->session()->forget('isAdmin');
+        }
 
         if ($request->email === $adminEmail && $request->password === $adminPassword) {
             $request->session()->put('isAdmin', true);

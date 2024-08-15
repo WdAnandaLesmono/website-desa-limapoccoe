@@ -30,11 +30,11 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/pemerintahan/struktur-organisasi" style="color: #365E32">Struktur Organisasi</a></li>
-                        <li><a class="dropdown-item" href="/pemerintahan/aparat-desa" style="color: #365E32">Aparat Desa</a></li>
+                        <li><a class="dropdown-item" href="/pemerintahan/pemerintah-desa" style="color: #365E32">Pemerintah Desa</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Request::is('berita') ? 'text-decoration-underline fw-700' : '' }}" href="/berita" style="color: #E7D37F">Berita</a>
+                    <a class="nav-link {{ Request::is('berita*') ? 'text-decoration-underline fw-700' : '' }}" href="/berita" style="color: #E7D37F">Berita</a>
                 </li>
             </ul>
         </div>

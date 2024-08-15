@@ -22,11 +22,15 @@
             <div class="carousel-item">
                 <img src="/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
                 <div class="carousel-caption d-none d-md-block">
+                    <h5>Kantor Desa Limapoccoe</h5>
+                    <p>Kecamatan Cenrana, Kabupaten Maros</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
                 <div class="carousel-caption d-none d-md-block">
+                    <h5>Hamparan sawah</h5>
+                    <p>di Desa Limapoccoe</p>
                 </div>
             </div>
         </div>
@@ -51,7 +55,7 @@
                     kegiatan desa demi pemerintahan yang lebih transparan.</p>
             </div>
             <div class="col text-center">
-                <img class="image-about" src="/img/carousel3.jpg" alt="" style="width: 400px">
+                <img class="image-about" src="/img/about.jpg" alt="" style="width: 350px">
             </div>
         </div>
     </div>
@@ -72,7 +76,7 @@
         <div class="row my-5">
             <div class="col-6 col-md-4 col-lg-3 gallery-item">
                 <img src="/img/galeri1.jpg" class="gallery-img" alt="Placeholder Image 1">
-                <span style="color: #81A263"><b>Memperingati tahun baru islam</b></span>
+                <span style="color: #81A263"><b>Acara adat dalam rangka memperingati tahun baru islam</b></span>
                 <span><b></b></span>
             </div>
             <div class="col-6 col-md-4 col-lg-3 gallery-item">
@@ -97,9 +101,11 @@
             </div>
             <div class="col-6 col-md-4 col-lg-3 gallery-item">
                 <img src="/img/galeri7.jpg" class="gallery-img" alt="Placeholder Image 7">
+                <span style="color: #81A263"><b>Kebun kacang tanah dan jagung</b></span>
             </div>
             <div class="col-6 col-md-4 col-lg-3 gallery-item">
                 <img src="/img/galeri8.jpg" class="gallery-img" alt="Placeholder Image 8">
+                <span style="color: #81A263"><b>Wisata Hutan Pendidikan Unhas</b></span>
             </div>
         </div>
     </div>
@@ -117,7 +123,7 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ $berita->title }}</h5>
                             <p class="card-text">{{ $berita->excerpt }}</p>
-                            <a href="/admin/{{ $berita->id }}" class="btn btn-success"
+                            <a href="/berita/{{ $berita->id }}" class="btn btn-success"
                                 style="width: 150px; font-size: 11px;">Baca
                                 berita</a>
                         </div>

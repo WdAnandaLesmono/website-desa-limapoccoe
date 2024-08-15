@@ -10,6 +10,7 @@ class BerandaController extends Controller
 {
     public function index()
     {
+        session()->forget('isAdmin');
         return view('beranda', [
             'beritas' => Berita::all()
         ]);

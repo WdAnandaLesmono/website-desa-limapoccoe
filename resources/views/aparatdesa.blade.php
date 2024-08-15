@@ -136,11 +136,11 @@
             </div>
             <div class="col d-flex justify-content-center mb-3">
                 <div class="card card-berita shadow-lg" style="background-color: #81A263">
-                    <img src="/img/kepala_dusun3.png" class="card-img-top" alt="Muhammad Syair"
+                    <img src="/img/kepala_dusun3.png" class="card-img-top" alt="Bahring"
                         style="width: 250px; height: 280px">
                     <div class="card-body">
                         <h5 class="card-title" style="font-size: 18px">Kepala Dusun Kaluku</h5>
-                        <p class="card-text text-bold">Muhammad Syair</p>
+                        <p class="card-text text-bold">Bahring</p>
                     </div>
                 </div>
             </div>
